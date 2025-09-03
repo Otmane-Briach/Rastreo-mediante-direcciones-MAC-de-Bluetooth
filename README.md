@@ -2,9 +2,6 @@
 
 Aplicación de monitorización de seguridad Bluetooth con interfaz gráfica (Tkinter) que escanea dispositivos BLE con Bleak, registra eventos en SQLite, genera alertas según listas de confianza/peligro y muestra gráficas de RSSI con Matplotlib. Diseñada para pruebas de laboratorio y demostraciones de seguridad.
 
-NOTA SOBRE CODIFICACIÓN:
-Si ves caracteres raros (acentos/ñ), guarda los archivos en UTF-8. Opcional: añade al inicio del .py la línea:  # -*- coding: utf-8 -*-
-
 ------------------------------------------------------------
 CARACTERÍSTICAS
 ------------------------------------------------------------
@@ -60,7 +57,6 @@ INSTALACIÓN
 EJECUCIÓN
 ------------------------------------------------------------
 python main.py
-# o el nombre real del archivo si es distinto
 
 Al iniciar, la app:
 - Crea (si no existe) bluetooth_security.db
