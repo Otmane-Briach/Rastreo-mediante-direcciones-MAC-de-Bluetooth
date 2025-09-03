@@ -157,18 +157,19 @@ ROADMAP SUGERIDO
 ESTRUCTURA SUGERIDA DEL REPO
 ------------------------------------------------------------
 bluetooth-security-monitor/
-├─ README.md
-├─ main.py
-├─ requirements.txt
-├─ bluetooth_security.db        # se crea en runtime (ignorar en git)
-├─ docs/
-│  └─ img/
-│     ├─ current.png
-│     ├─ history.png
-│     ├─ alerts.png
-│     ├─ graphs.png
-│     └─ management.png
-└─ LICENSE
+  README.md
+  main.py
+  requirements.txt
+  bluetooth_security.db   (se crea en runtime; ignóralo en git)
+  docs/
+    img/
+      current.png
+      history.png
+      alerts.png
+      graphs.png
+      management.png
+  LICENSE
+
 
 ------------------------------------------------------------
 EJEMPLO requirements.txt
